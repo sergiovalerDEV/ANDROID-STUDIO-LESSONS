@@ -1,0 +1,2 @@
+Probar json viewer en el navegador
+https://api.themoviedb.org/3/movie/popular?api_key=e7496289ffb0cbb9f279b9f03b5f370b
