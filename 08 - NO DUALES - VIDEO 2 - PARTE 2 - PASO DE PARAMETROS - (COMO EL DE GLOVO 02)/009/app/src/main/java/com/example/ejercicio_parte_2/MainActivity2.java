@@ -23,5 +23,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         txtUser = (TextView) findViewById(R.id.textView2);
         txtUser.setText(SeasData.getUsuario().getEmail());
+
     }
 }
