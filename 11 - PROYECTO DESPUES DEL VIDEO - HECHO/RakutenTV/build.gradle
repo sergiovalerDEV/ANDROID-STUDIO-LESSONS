@@ -1,0 +1,25 @@
+// build.gradle (Proyecto)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Plugin de Gradle para Android
+        classpath 'com.android.tools.build:gradle:8.6.0'
+
+        // Si utilizas Kotlin, añade también:
+        // classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
