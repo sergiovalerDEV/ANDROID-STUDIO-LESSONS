@@ -1,6 +1,6 @@
 # 📱 ANDROID-STUDIO-LESSONS
 
-![Owner Avatar]([[https://your-avatar-url.com/avatar.png](https://avatars.githubusercontent.com/u/161168949?v=4&size=64](https://avatars.githubusercontent.com/u/161168949?v=4))) <!-- Replace with your avatar URL -->
+![Owner Avatar](https://avatars.githubusercontent.com/u/161168949?v=4&size=64](https://avatars.githubusercontent.com/u/161168949?v=4) 
 
 Welcome to my Android Studio lessons repository! 🌟
 
