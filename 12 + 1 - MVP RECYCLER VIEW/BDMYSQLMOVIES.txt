@@ -1,0 +1,29 @@
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO user (email, password) VALUES
+('user1@example.com', 'password1'),
+('user2@example.com', 'password2'),
+('user3@example.com', 'password3'),
+('user4@example.com', 'password4'),
+('user5@example.com', 'password5');
+
+
+CREATE TABLE peliculas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(100) NOT NULL,
+    descripcion TEXT,
+    director VARCHAR(100),
+    anyo INT,
+    urlImagen VARCHAR(255)
+);
+
+INSERT INTO peliculas (titulo, descripcion, director, anyo, urlImagen) VALUES
+('The Shawshank Redemption', 'Dos hombres encarcelados crean un vínculo a lo largo de los años, encontrando consuelo y redención a través de actos de decencia.', 'Frank Darabont', 1994, 'https://www.naiz.eus/media/asset_publics/resources/001/107/669/original/the-shawshank-redemption-1994-7.jpg'),
+('The Godfather', 'El envejecido patriarca de una dinastía criminal organiza el traspaso de su imperio clandestino a su hijo reacio.', 'Francis Ford Coppola', 1972, 'https://taschen.makaira.media/taschen/image/upload/f_webp,w_1200/v1673546296/products-live/cbb8203ea77f3082f4ca9aa57ebc02c7.jpg'),
+('The Dark Knight', 'Cuando la amenaza conocida como el Joker emerge de su misterioso pasado, causa estragos y caos en la ciudad de Gotham.', 'Christopher Nolan', 2008, 'https://elgolocine.wordpress.com/wp-content/uploads/2023/04/dkr1.0.jpeg'),
+('Pulp Fiction', 'Las vidas de dos asesinos a sueldo, un boxeador, la esposa de un gánster y un par de bandidos de cafetería se entrelazan en cuatro historias de violencia y redención.', 'Quentin Tarantino', 1994, 'https://imagenes.elpais.com/resizer/v2/UU7EK3LSSRL77HQH5ZHQRJAJIA.jpg?auth=55427cda34ee0832111eb322a50b2305b17bcf0f8986aec80f41c7208a2aeeee&width=414'),
+('Inception', 'Un ladrón que roba secretos corporativos a través del uso de la tecnología de sueño compartido recibe la tarea inversa de plantar una idea en la mente de un director ejecutivo.', 'Christopher Nolan', 2010, 'https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/07/hipertextual-diez-anos-inception-extrana-mirada-nolan-sobre-realidad-siguevigente-2020650351-scaled.jpg?fit=2560%2C1440&quality=50&strip=all&ssl=1');
