@@ -1,6 +1,6 @@
 # 📱 ANDROID-STUDIO-LESSONS
 
-👋 Welcome to my Android Studio lessons repository! 🌟
+👋 Welcome to my Android Studio lessons repository! 
 
 ## 📚 About This Repository
 
