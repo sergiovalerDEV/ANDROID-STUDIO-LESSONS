@@ -1,7 +1,6 @@
 # 📱 ANDROID-STUDIO-LESSONS
 
-![Owner Avatar](https://avatars.githubusercontent.com/u/161168949?v=4&size=64](https://avatars.githubusercontent.com/u/161168949?v=4) 
-
+![Owner Avatar](https://avatars.githubusercontent.com/u/161168949?v=4&size=64)
 Welcome to my Android Studio lessons repository! 🌟
 
 ## 📚 About This Repository
